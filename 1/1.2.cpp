@@ -74,12 +74,12 @@ int main() {
 
     for(size_t i = 0; i < 6; i+=2)
     {
-        print(string_list[i], string_list[i+1], check_permutation(string_list[i], string_list[i+1]));
+        print(string_list[i], string_list[i+1], check_permutation_char_count(string_list[i], string_list[i+1]));
     }
 
     for(size_t i = 0; i < 6; i+=2)
     {
-        print(string_list[i], string_list[i+1], check_permutation_char_count(string_list[i], string_list[i+1]));
+        print(string_list[i], string_list[i+1], check_permutation(string_list[i], string_list[i+1]));
     }
 
     return 0;
