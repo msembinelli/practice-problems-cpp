@@ -9,7 +9,6 @@
 #include <iostream>
 #include <string>
 #include <stdlib.h>
-#include <bitset>
 using namespace std;
 
 string compress_string(string &str)

@@ -7,9 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include <string>
 #include <stdlib.h>
-#include <bitset>
 #include <time.h>
 #include <iomanip>
 using namespace std;
